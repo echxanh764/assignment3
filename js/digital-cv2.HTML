@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>digital-cv1</title>
+  <style>
+    h1 {
+      text-align: center;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+      background-color: blue;
+      padding: 10px;
+      margin: 1cm;
+    }
+
+    .grid-container>div {
+      background-color: rgb(233, 225, 225);
+      text-align: left;
+      padding: 20px 0;
+      font-size: 20px;
+    }
+
+
+
+
+    /* Tablet */
+    @media (max-width: 768px) {
+      body {
+        background-color:
+          yellow;
+
+      }
+
+      .grid-container {
+        grid-template-columns: auto auto;
+        margin-left: 0cm;
+
+      }
+    }
+
+    /* Mobie */
+    @media (max-width: 500px) {
+      body {
+        background-color: lightgreen;
+
+      }
+
+      .grid-container {
+        grid-template-columns: auto;
+        margin-left: 0cm;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>TRANG WEB QUẢN LÝ THÚ CƯNG</h1>
+  <div class="grid-container">
+    <div class="item1">
+      <h3> Goals</h3>
+      <hr>
+      <ul>
+        <li>Goal 1 : Phát triển code </li>
+        <li>Goal 2 : Review code</li>
+        <li>Goal 3 : Tối ưu code</li>
+      </ul>
+    </div>
+    <div class="item2">
+      <h3> Team </h3>
+      <hr>
+      <ul>
+        <li>Member 1 :</li>
+        <p>Nguyễn Xuân Trường</p>
+        <li>Member 2 :</li>
+        <p>Đặng Phương Nam</p>
+        <li>Member 3 :</li>
+        <p>Hoàng Thúy Oanh</p>
+        <li>Member 4 :</li>
+        <p>Đoàn Văn Hà</p>
+      </ul>
+    </div>
+    <div class="item3">
+      <h3>Timeline</h3>
+      <hr>
+      <ol type="A">
+        <li>Project Start</li>
+        <li>Project date</li>
+        <li>Project date</li>
+        <li>Project date</li>
+        <li>Project date</li>
+        <li>Project date</li>
+        <li>Project date</li>
+      </ol>
+    </div>
+    <div class="item4">
+      <h3>Scopes</h3>
+      <hr>
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th>In</th>
+            <th>Out</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Đoàn Văn Hà</td>
+            <td>không</td>
+
+          </tr>
+
+
+        </tbody>
+      </table>
+
+    </div>
+    <div class="item5">
+      <h3>Primary </h3>
+      <hr>
+      <ul>
+        <li> Tạo Trang Web cá nhân online</li>
+        <li>Các Thông tin cá nhân và kỹ năng nghề nghiệp</li>
+
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
